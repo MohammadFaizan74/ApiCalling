@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import React from 'react'
+import Item from "./Componets/Item"
 
 
 
@@ -31,6 +32,8 @@ const onCountClick=()=>{
    <h2>{JSON.stringify(data)}</h2>
    <button onClick={()=>onBtnClick()}>Test</button>
    <button onClick={()=>onCountClick()}>Counter</button>
+   
+   <Item/>
 
 
     </div>
